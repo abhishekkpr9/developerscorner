@@ -1,0 +1,536 @@
+<style>
+  .text-white {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+  }
+  .timeline-container .vertical-scrollable-timeline li p {
+    line-height: 40px;
+  }
+  .custom-border-btn {
+    background: transparent !important;
+    border: 2px solid var(--custom-btn-bg-color) !important;
+    color: var(--custom-btn-bg-color) !important;
+  }
+
+</style>
+<div class="super_container">
+  <app-header></app-header>
+
+  <!-- Menu -->
+
+  <div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
+    <div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
+    <div class="search">
+      <form action="#" class="header_search_form menu_mm">
+        <input type="search" class="search_input menu_mm" placeholder="Search" required="required">
+        <button class="header_search_button d-flex flex-column align-items-center justify-content-center menu_mm">
+          <i class="fa fa-search menu_mm" aria-hidden="true"></i>
+        </button>
+      </form>
+    </div>
+    <nav class="menu_nav">
+      <ul class="menu_mm">
+        <li class="menu_mm"><a href="index.html">Home</a></li>
+        <li class="menu_mm"><a href="courses.html">Courses</a></li>
+        <li class="menu_mm"><a href="instructors.html">Instructors</a></li>
+        <li class="menu_mm"><a href="#">Events</a></li>
+        <li class="menu_mm"><a href="blog.html">Blog</a></li>
+        <li class="menu_mm"><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="menu_extra">
+      <div class="menu_phone" style="font-size:16px"><span class="menu_title">phone:</span>(009) 35475 6688933 32</div>
+      <div class="menu_social">
+        <span class="menu_title">follow us</span>
+        <ul>
+          <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Home -->
+
+  <div class="home">
+    <div class="home_slider_container">
+
+      <!-- Home Slider -->
+      <div class="owl-carousel owl-theme home_slider">
+
+        <!-- Slider Item -->
+        <div class="owl-item active">
+          <!-- Background image artist https://unsplash.com/@benwhitephotography -->
+
+
+
+          <div class="home_slider_background" style="background-image:url(assets/images/index.jpg)"></div>
+          <div class="home_container">
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                  <div class="home_content text-center">
+                    <div class="home_logo"><img src="assets/images/home_logo.png" alt=""></div>
+                    <div class="home_text">
+                      <div class="home_title">Complete Online Courses</div>
+                      <div class="home_subtitle">Maecenas rutrum viverra sapien sed fermentum. Morbi tempor odio eget lacus tempus pulvinar. Praesent vel nisl fermentum, gravida augue ut, fermentum ipsum.</div>
+                    </div>
+                    <div class="home_buttons">
+                      <div class="button home_button"><a href="#">learn more<div class="button_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></div></a></div>
+                      <div class="button home_button"><a href="#">see all courses<div class="button_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></div></a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slider Item -->
+        <!-- Slider Item -->
+
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Featured Course -->
+
+  <div class="featured">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <!-- Home Slider Nav -->
+          <div class="featured_container">
+            <div class="row">
+              <div class="col-lg-6 featured_col">
+                <div class="featured_content">
+                  <div class="featured_header d-flex flex-row align-items-center justify-content-start">
+                    <div class="featured_tag"><a href="#">Featured</a></div>
+                    <div class="featured_price ml-auto">Price: <span>$35</span></div>
+                  </div>
+                  <div class="featured_title"><h3><a href="courses.html">Online Literature Course</a></h3></div>
+                  <div class="featured_text">Maecenas rutrum viverra sapien sed fermentum. Morbi tempor odio eget lacus tempus pulvinar. Donec vehicula efficitur nibh, in pretium nulla interdum non.</div>
+                  <div class="featured_footer d-flex align-items-center justify-content-start">
+                    <div class="featured_author_image"><img src="assets/images/featured_author.jpg" alt=""></div>
+                    <div class="featured_author_name">By <a href="#">James S. Morrison</a></div>
+                    <div class="featured_sales ml-auto"><span>352</span> Sales</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 featured_col">
+                <!-- Background image artist https://unsplash.com/@jtylernix -->
+                <div class="featured_background" style="background-image: url(assets/images/featured.jpg)"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Courses -->
+
+  <div class="courses">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 offset-lg-1">
+          <div class="section_title text-center"><h2>Choose your course</h2></div>
+          <div class="section_subtitle">Suspendisse tincidunt magna eget massa hendrerit efficitur. Ut euismod pellentesque imperdiet. Cras laoreet gravida lectus, at viverra lorem venenatis in. Aenean id varius quam. Nullam bibendum interdum dui, ac tempor lorem convallis ut</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="course_search">
+            <form action="#" class="course_search_form d-flex flex-md-row flex-column align-items-start justify-content-between">
+              <div><input type="text" class="course_input" placeholder="Course" required="required"></div>
+              <div><input type="text" class="course_input" placeholder="Level" required="required"></div>
+              <button class="course_button"><span>search course</span><span class="button_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+
+          <!-- Courses Slider -->
+          <div class="courses_slider_container">
+            <div class="owl-carousel owl-theme courses_slider">
+              <!-- Slider Item -->
+              <c-carousel (itemChange)="onItemChange($event)" [interval]="4000" transition="slide">
+                <c-carousel-inner>
+                  <c-carousel-item>
+                    <img [src]="slides[0].src"
+                         alt="{{slides[0].title}}"
+                         class="d-block w-100"
+                         loading="lazy" />
+                    <div class="">Social Media Course</div>
+
+
+                  </c-carousel-item>
+                  <c-carousel-item>
+                    <img [src]="slides[1].src"
+                         alt="{{slides[1].title}}"
+                         class="d-block w-100"
+                         loading="lazy" />
+                    <div class="">Marketing Course</div>
+                  </c-carousel-item>
+                  <c-carousel-item>
+                    <img [src]="slides[2].src"
+                         alt="{{slides[2].title}}"
+                         class="d-block w-100"
+                         loading="lazy" />
+                  </c-carousel-item>
+                </c-carousel-inner>
+              </c-carousel>
+
+            </div>
+
+            <!-- Courses Slider Nav -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Milestones -->
+
+  <div class="milestones">
+    <!-- Background image artis https://unsplash.com/@thepootphotographer -->
+    <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="assets/images/milestones.jpg" data-speed="0.8" style="background-image: url(&quot;assets/images/milestones.jpg&quot;);
+"></div>
+    <div class="container">
+      <div class="row milestones_container">
+
+        <!-- Milestone -->
+        <div class="col-lg-3 milestone_col">
+          <div class="milestone text-center">
+            <div class="milestone_icon"><img src="assets/images/milestone_1.svg" alt=""></div>
+            <div class="milestone_counter" data-end-value="1548">0</div>
+            <div class="milestone_text">Online Courses</div>
+          </div>
+        </div>
+
+        <!-- Milestone -->
+        <div class="col-lg-3 milestone_col">
+          <div class="milestone text-center">
+            <div class="milestone_icon"><img src="assets/images/milestone_2.svg" alt=""></div>
+            <div class="milestone_counter" data-end-value="7286">0</div>
+            <div class="milestone_text">Students</div>
+          </div>
+        </div>
+
+        <!-- Milestone -->
+        <div class="col-lg-3 milestone_col">
+          <div class="milestone text-center">
+            <div class="milestone_icon"><img src="assets/images/milestone_3.svg" alt=""></div>
+            <div class="milestone_counter" data-end-value="257">0</div>
+            <div class="milestone_text">Teachers</div>
+          </div>
+        </div>
+
+        <!-- Milestone -->
+        <div class="col-lg-3 milestone_col">
+          <div class="milestone text-center">
+            <div class="milestone_icon"><img src="assets/images/milestone_4.svg" alt=""></div>
+            <div class="milestone_counter" data-end-value="39">0</div>
+            <div class="milestone_text">Countries</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!--How does it work-->
+
+  <section class="timeline-section section-padding" id="section_3" style="background-image: url('assets/images/colleagues-working-cozy-office-medium-shot.jpg')">
+    <div class="section-overlay"></div>
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-12 text-center">
+          <h4 class="text-white mb-4">How does it work?</h4>
+        </div>
+
+        <div class="col-lg-10 col-12 mx-auto">
+          <div class="timeline-container">
+            <ul class="vertical-scrollable-timeline" id="vertical-scrollable-timeline">
+              <div class="list-progress">
+                <div class="inner"></div>
+              </div>
+
+              <li>
+                <h4 class="text-white mb-3">Search your favourite topic</h4>
+
+                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, cumque magnam? Sequi, cupiditate quibusdam alias illum sed esse ad dignissimos libero sunt, quisquam numquam aliquam? Voluptas, accusamus omnis?</p>
+
+                <div class="icon-holder">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                  </svg>
+                </div>
+              </li>
+
+              <li>
+                <h4 class="text-white mb-3">Bookmark &amp; Keep it for yourself</h4>
+
+                <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint animi necessitatibus aperiam repudiandae nam omnis est vel quo, nihil repellat quia velit error modi earum similique odit labore. Doloremque, repudiandae?</p>
+
+                <div class="icon-holder">
+                  <i class="bi-bookmark"></i>
+                </div>
+              </li>
+
+              <li>
+                <h4 class="text-white mb-3">Read &amp; Enjoy</h4>
+
+                <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi vero quisquam, rem assumenda similique voluptas distinctio, iste est hic eveniet debitis ut ducimus beatae id? Quam culpa deleniti officiis autem?</p>
+
+                <div class="icon-holder">
+                  <i class="bi-book"></i>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-12 text-center mt-5">
+          <p class="text-white">
+            Want to learn more?
+            <a href="#" class="btn custom-btn custom-border-btn ms-3">Check out Youtube</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sections -->
+
+
+
+  <div class="grouped_sections">
+    <div class="container">
+      <div class="row">
+
+        <!-- Why Choose Us -->
+
+        <div class="col-lg-4 grouped_col">
+          <div class="grouped_title">Why Choose Us?</div>
+          <div class="accordions">
+
+            <div class="accordion_container">
+              <div class="accordion d-flex flex-row align-items-center active"><div>Mauris vehicula nisi congue?</div></div>
+              <div class="accordion_panel">
+                <div>
+                  <p>Suspendisse tincidunt magna eget massa hendrerit efficitur. Ut euismod pellentesque imperdiet. Cras laoreet gravida lectus, at viverra lorem venenatis in. Aenean id varius quam.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion_container">
+              <div class="accordion d-flex flex-row align-items-center"><div>Vehicula nisi congue, blandit?</div></div>
+              <div class="accordion_panel">
+                <div>
+                  <p>Suspendisse tincidunt magna eget massa hendrerit efficitur. Ut euismod pellentesque imperdiet. Cras laoreet gravida lectus, at viverra lorem venenatis in. Aenean id varius quam.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion_container">
+              <div class="accordion d-flex flex-row align-items-center"><div>Mauris vehicula nisi congue?</div></div>
+              <div class="accordion_panel">
+                <div>
+                  <p>Suspendisse tincidunt magna eget massa hendrerit efficitur. Ut euismod pellentesque imperdiet. Cras laoreet gravida lectus, at viverra lorem venenatis in. Aenean id varius quam.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion_container">
+              <div class="accordion d-flex flex-row align-items-center"><div>Nisi congue, blandit purus sed?</div></div>
+              <div class="accordion_panel">
+                <div>
+                  <p>Suspendisse tincidunt magna eget massa hendrerit efficitur. Ut euismod pellentesque imperdiet. Cras laoreet gravida lectus, at viverra lorem venenatis in. Aenean id varius quam.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Events -->
+
+        <div class="col-lg-4 grouped_col">
+          <div class="grouped_title">Upcoming Events</div>
+          <div class="events">
+
+            <!-- Event -->
+            <div class="event d-flex flex-row align-items-start justify-content-start">
+              <div>
+                <div class="event_date d-flex flex-column align-items-center justify-content-center">
+                  <div class="event_day">20</div>
+                  <div class="event_month">April</div>
+                </div>
+              </div>
+              <div class="event_body">
+                <div class="event_title"><a href="#">New Marketing Course Release</a></div>
+                <div class="event_subtitle">Location: Online Platform</div>
+              </div>
+            </div>
+
+            <!-- Event -->
+            <div class="event d-flex flex-row align-items-start justify-content-start">
+              <div>
+                <div class="event_date d-flex flex-column align-items-center justify-content-center">
+                  <div class="event_day">23</div>
+                  <div class="event_month">April</div>
+                </div>
+              </div>
+              <div class="event_body">
+                <div class="event_title"><a href="#">Students Art Workshop</a></div>
+                <div class="event_subtitle">Location: Online Platform</div>
+              </div>
+            </div>
+
+            <!-- Event -->
+            <div class="event d-flex flex-row align-items-start justify-content-start">
+              <div>
+                <div class="event_date d-flex flex-column align-items-center justify-content-center">
+                  <div class="event_day">25</div>
+                  <div class="event_month">April</div>
+                </div>
+              </div>
+              <div class="event_body">
+                <div class="event_title"><a href="#">Launch Party for a new Platform</a></div>
+                <div class="event_subtitle">Location: Online Platform</div>
+              </div>
+            </div>
+
+            <!-- Event -->
+            <div class="event d-flex flex-row align-items-start justify-content-start">
+              <div>
+                <div class="event_date d-flex flex-column align-items-center justify-content-center">
+                  <div class="event_day">27</div>
+                  <div class="event_month">April</div>
+                </div>
+              </div>
+              <div class="event_body">
+                <div class="event_title"><a href="#">New Marketing Course</a></div>
+                <div class="event_subtitle">Location: Online Platform</div>
+              </div>
+            </div>
+
+            <!-- Event -->
+            <div class="event d-flex flex-row align-items-start justify-content-start">
+              <div>
+                <div class="event_date d-flex flex-column align-items-center justify-content-center">
+                  <div class="event_day">29</div>
+                  <div class="event_month">April</div>
+                </div>
+              </div>
+              <div class="event_body">
+                <div class="event_title"><a href="#">New Marketing Course</a></div>
+                <div class="event_subtitle">Location: Online Platform</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <section class="faq-section section-padding" id="section_4">
+          <div class="container">
+            <div class="row">
+
+              <div class="col-lg-6 col-12">
+                <h2 class="mb-4" style="font-size: var(--h2-font-size); font-weight: var(--font-weight-bold); ">Frequently Asked Questions</h2>
+              </div>
+
+              <div class="clearfix"></div>
+
+              <div class="col-lg-5 col-12">
+                <img src="assets/images/faq_graphic.jpg" class="img-fluid" alt="FAQs">
+              </div>
+
+              <div class="col-lg-6 col-12 m-auto">
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        What is Topic Listing?
+                      </button>
+                    </h2>
+
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        Topic Listing is free Bootstrap 5 CSS template. <strong>You are not allowed to redistribute this template</strong> on any other template collection website without our permission. Please contact TemplateMo for more detail. Thank you.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        How to find a topic?
+                      </button>
+                    </h2>
+
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        You can search on Google with <strong>keywords</strong> such as templatemo portfolio, templatemo one-page layouts, photography, digital marketing, etc.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Does it need to paid?
+                      </button>
+                    </h2>
+
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        
+      </div>
+    </div>
+  </div>
+
+  
+
+  
+
+  <!-- Join -->
+
+  <div class="join">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 offset-lg-1">
+          <div class="section_title text-center"><h2>Join Our Platform Today</h2></div>
+          <div class="section_subtitle">Suspendisse tincidunt magna eget massa hendrerit efficitur. Ut euismod pellentesque imperdiet. Cras laoreet gravida lectus, at viverra lorem venenatis in. Aenean id varius quam. Nullam bibendum interdum dui, ac tempor lorem convallis ut</div>
+        </div>
+      </div>
+    </div>
+    <div class="button join_button"><a href="#">register now<div class="button_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></div></a></div>
+  </div>
+
+  <!-- Footer -->
+
+  <app-footer></app-footer>
+</div>
